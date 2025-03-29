@@ -58,12 +58,22 @@ git clone <repository-url>
 cd task-management-api
 ```
 
-2. Run the application using Docker Compose:
+2. Create a `.env` file in the root directory with your environment variables:
+```
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/task-management
+NODE_ENV=development
+JWT_SECRET=your_secure_jwt_secret
+```
+
+3. Run the application using Docker Compose:
 ```
 docker-compose up
 ```
 
 This will start both the API server and MongoDB. The API will be available at http://localhost:5000.
+
+> **Security Note**: The docker-compose.yml file uses environment variables from your local `.env` file. Never commit the `.env` file or any file containing secrets to version control.
 
 ## Running the API
 

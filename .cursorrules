@@ -1,0 +1,75 @@
+# Task Management API Tasks
+
+## Setup
+- [x] Initialize project with npm
+- [x] Set up basic Express server
+- [x] Configure MongoDB connection
+- [x] Create environment variables
+- [x] Add Docker support
+
+## Models
+- [x] Design Task schema
+- [x] Implement Task model
+- [x] Design User schema
+- [x] Implement User model
+- [x] Design Category/Tag schema
+- [x] Implement Category/Tag model
+- [x] Update Task schema to include categories/tags
+- [x] Design Comment schema
+- [x] Implement Comment model
+- [x] Update Task schema to reference comments
+
+## API Routes
+- [x] Create tasks route
+- [x] Implement GET /tasks
+- [x] Implement POST /tasks
+- [x] Implement GET /tasks/:id
+- [x] Implement PUT /tasks/:id
+- [x] Implement DELETE /tasks/:id
+- [x] Create categories routes
+- [x] Implement GET /categories
+- [x] Implement POST /categories
+- [x] Implement DELETE /categories/:id
+- [x] Implement GET /tasks/category/:categoryId
+- [x] Implement GET /tasks/search
+- [x] Add search query parameters for title, description
+- [x] Add search filters for status, priority, date range
+- [x] Create comments routes
+- [x] Implement POST /tasks/:id/comments
+- [x] Implement GET /tasks/:id/comments
+- [x] Implement PUT /tasks/:id/comments/:commentId
+- [x] Implement DELETE /tasks/:id/comments/:commentId
+
+## Authentication
+- [x] Install authentication packages (bcrypt, jsonwebtoken)
+- [x] Implement user registration (POST /api/users)
+- [x] Implement user login (POST /api/auth/login)
+- [x] Create JWT middleware for route protection
+- [x] Add authentication to task routes
+- [x] Implement password reset functionality
+- [x] Add authentication to category routes
+- [x] Add authentication to comment routes
+
+## Testing
+- [ ] Test creating tasks
+- [ ] Test retrieving tasks
+- [ ] Test updating tasks 
+- [ ] Test deleting tasks
+- [ ] Test user registration
+- [ ] Test user login
+- [ ] Test protected routes
+- [ ] Test category creation
+- [ ] Test retrieving tasks by category
+- [ ] Test task search functionality
+- [ ] Test adding comments to tasks
+- [ ] Test updating comments
+- [ ] Test deleting comments
+
+## Documentation
+- [x] Document API endpoints
+- [x] Create README with setup instructions
+- [x] Add Docker setup instructions to README
+- [x] Document authentication endpoints
+- [x] Document category endpoints
+- [x] Document search endpoints and parameters
+- [x] Document comment endpoints
